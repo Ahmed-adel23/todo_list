@@ -1,0 +1,25 @@
+@import "tailwindcss";
+body{
+    background:linear-gradient(135deg , rgb(28, 28, 88) , black)
+}
+
+button{
+    font-size: 20px !important;
+}
+@font-face {
+  font-family: 'Lobster';
+  src: url('../Lobster/Lobster-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  src: url('../Jost/Jost-VariableFont_wght.ttf') format('truetype');
+}
+
+
+h1 ,h4{
+  font-family: lobster , sans-serif;
+}
+[type = submit]{
+    font-family: Jost , sans-serif;
+    font-weight: bold;
+}
